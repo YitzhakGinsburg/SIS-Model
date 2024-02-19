@@ -13,7 +13,7 @@ for j in range(50):
         # get solution step state
         solution.step()
         x = solution.y[0]
-        # break loop after modeling is finished.
+        # break loop after modeling is finished
         if solution.status == 'finished':
             break
     r_values.append(b*20)
